@@ -11,3 +11,9 @@ Naive Bayes model is easy to build and particularly useful for very large data s
 simplicity, Naive Bayes is known to outperform even highly sophisticated classification methods.
 Bayes theorem provides a way of calculating posterior probability P(c|x) - (read as Probability of c given x), from
 P(c), P(x) and P(x|c). Look at the equation below: >
+
+#how to run
+use google colab
+download the dataset from kaggle
+upload the .pynb file and the dataset
+run the code
