@@ -12,7 +12,7 @@ simplicity, Naive Bayes is known to outperform even highly sophisticated classif
 Bayes theorem provides a way of calculating posterior probability P(c|x) - (read as Probability of c given x), from
 P(c), P(x) and P(x|c). Look at the equation below: >
 
-#how to run
+how to run the jupyter notebook file
 
 1. use google colab
 
@@ -21,3 +21,25 @@ P(c), P(x) and P(x|c). Look at the equation below: >
 3. upload the .pynb file and the dataset
 
 4. run the code
+
+
+Below is the process used for coding.
+Merge the dataset into one. And divide the dataset as train, development and test. 
+
+Build a vocabulary as list. 
+[‘the’ ‘I’ ‘happy’ … ] 
+You may omit rare words for example if the occurrence is less than five times
+A reverse index as the key value might be handy
+{“the”: 0, “I”:1, “happy”:2 , … }
+Calculate the following probability
+Probability of the occurrence
+P[“the”] = num of documents containing ‘the’ / num of all documents
+Conditional probability based on the sentiment
+P[“the” | Positive]  = # of positive documents containing “the” / num of all positive review documents
+Calculate accuracy using dev dataset  
+Do following experiments
+Compare the effect of Smoothing
+Derive Top 10 words that predicts each class
+P[class | word] 
+Using the test dataset
+Use the optimal hyperparameters you found in the step e, and use it to calculate the final accuracy. 
