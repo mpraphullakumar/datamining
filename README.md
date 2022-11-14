@@ -13,7 +13,11 @@ Bayes theorem provides a way of calculating posterior probability P(c|x) - (read
 P(c), P(x) and P(x|c). Look at the equation below: >
 
 #how to run
-use google colab
-download the dataset from kaggle
-upload the .pynb file and the dataset
-run the code
+
+1. use google colab
+
+2. download the dataset from kaggle
+
+3. upload the .pynb file and the dataset
+
+4. run the code
