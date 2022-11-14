@@ -1,4 +1,4 @@
-# datamining
+# Naive Bayes Classiication
 Naive Bayes Classifier
 What is Naive Bayes algorithm?
 It is a classification method built on the Bayes Theorem and predicated on the idea of predictor independence. A
